@@ -33,7 +33,7 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('TheBergSource@gmail.com','FRiends95!')
+    server.login('TheBergSource@gmail.com','Current Password')
     
     subject = "The Watch is below $250! Now is your chance to buy!"
     body = "Alex, This is the moment we have been waiting for. Now is your chance to pick up the watch of your dreams. Don't mess it up! Link here: https://www.amazon.com/Seiko-SKX007K2-Divers-Automatic-Watch/dp/B000B5OD4I/ref=sr_1_2?keywords=seiko+skx&qid=1575598534&sr=8-2"
