@@ -1,4 +1,4 @@
-# WebScraper
+# Amazon Scraper
 
 Hey Everybody,
 
