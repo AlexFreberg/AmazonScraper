@@ -36,12 +36,12 @@ def send_mail():
     server.login('TheBergSource@gmail.com','Current Password')
     
     subject = "The Watch is below $250! Now is your chance to buy!"
-    body = "Alex, This is the moment we have been waiting for. Now is your chance to pick up the watch of your dreams. Don't mess it up! Link here: https://www.amazon.com/Seiko-SKX007K2-Divers-Automatic-Watch/dp/B000B5OD4I/ref=sr_1_2?keywords=seiko+skx&qid=1575598534&sr=8-2"
+    body = "Alex, This is the moment we have been waiting for. Now is your chance to pick up the watch of your dreams. Link here: https://www.amazon.com/Seiko-SKX007K2-Divers-Automatic-Watch/dp/B000B5OD4I/ref=sr_1_2?keywords=seiko+skx&qid=1575598534&sr=8-2"
    
     msg = f"Subject: {subject}\n\n{body}"
     
     server.sendmail(
-        'TheBergSource.gmail.com',
+        'TheBergSource@gmail.com',
         'alex.freberg@yahoo.com',
         msg
      
